@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" rel="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" ></script>
+    <script  src="js/typed.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">PORTFO<span>LIO</span></div>
+             <div class="menu">
+                 <a href="#">Home</a>
+                 <a href="#about">About</a>
+                 <a href="#skills">Skills</a>
+                 <a href="#project">Projects</a>
+                 <a href="#contact">Contact</a>
+             </div>
+        </nav>
+
+        <div class="text">
+            <p>Hello , I am</p>
+            <h1>Mayank Jain</h1>
+            <p class="fresh">And I am a <span id='ani' style="color:red;">Fresher</span></p>
+            <button class="c-btn"><a href="#">HIRE ME</a></button>
+        </div>
+    </header>
+    <!-- about section-->
+
+    <section id="about">
+        <div class="section-info">
+            <h1>About</h1>
+            <p>Who am I ? </p>
+        </div>
+        <div class="about-row">
+            <div class="about-left-col">
+                <img src="about1.jpg" alt="profile-img">
+            </div>
+            <div class="about-right-col">
+                <p id="p-title">Hello , I am Mayank & I am <span id="ani2" style="color:red;"> Up Comming Engineer </span></p>
+                <p>To work in a firm with a professional work driven environment where I can utilize and apply my knowledge and skills which would enable me as a fresher graduate to grow while fullfilling organization goals.</p>
+            <button class="c-btn"><a href="#">Download CV</a></button></div>
+        </div>
+    </section>
+
+    <!--SKILLS-->
+    <section id="skills">
+        <div class="section-info">
+            <h1 class="colo">Skill<span>'S</span></h1>
+        </div>
+        <div class="skills-row">
+            <div class="skills-left-col">
+                <p class="colo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores optio quasi eos tempore voluptatibus corporis et, consectetur molestiae accusantium deleniti, deserunt aspernatur quisquam dolore! Similique sunt deleniti reprehenderit! </p><button class="c-btn">Read More</button>
+            </div>
+            <div class="skills-right-col">
+                <div class="progress-div">
+                <p>
+                    <span>HTML</span><br>
+                    <progress value="70" max="100"></progress><span>70%</span>
+                </p>
+                <p>
+                    <span>CSS</span><br>
+                    <progress value="50" max="100"></progress><span>50%</span>
+                </p>
+                <p>
+                    <span>JAVA-SCRIPT</span><br>
+                    <progress value="50" max="100"></progress><span>50%</span>
+                </p>
+                <p>
+                    <span>C/C++-programmming</span><br>
+                    <progress value="75" max="100"></progress><span>75%</span>
+                </p>
+                <p>
+                    <span>JAVA</span><br>
+                    <progress value="70" max="100"></progress><span>70%</span>
+                </p>
+                <p>
+                    <span>PYTHON</span><br>
+                    <progress value="65" max="100"></progress><span>65%</span>
+                </p>
+                <p>
+                    <span>ARDUINO</span><br>
+                    <progress value="55" max="100"></progress><span>55%</span>
+                </p>
+                <p>
+                    <span>DS/Algo</span><br>
+                    <progress value="55" max="100"></progress><span>55%</span>
+                </p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--projects-->
+    <section class="projects" id="project">
+        <div class="section-info">
+            <h1>Projects</h1>
+            <p>What I <span style="color:black;">CRE</span>ate !</p>
+        </div>
+        <div class="projects-row">
+            <div class="projects-box" data-tilt>
+                <img src="b2.png" alt="box">
+                <h1>ARDUINO</h1>
+                <p>Obstacle alarming device for specially ables using HC-SR04 sensor and basic electronic devices</p>
+            </div>
+            <div class="projects-box" data-tilt>
+                <img src="b2.png" alt="box">
+                <h1>ARDUINO</h1>
+                <p>Humidity and Temperature controlled DC Motor using DHT 11 sensor and Dc motor</p>
+            </div>
+            <div class="projects-box" data-tilt>
+                <img src="b2.png" alt="box">
+                <h1>WEB DEVELOPMENT</h1>
+                <p>Front-end designing of many forms and a e-commerce website</p>
+            </div>
+            <div class="projects-box" data-tilt>
+                <img src="b2.png" alt="box">
+                <h1>C -programmming</h1>
+                <p>Hospital management system </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!--contact-->
+
+    <section id="contact">
+        <div class="section-info">
+            <h1>To Contact</h1>
+            <p style="color: cornsilk;">I am available</p>
+        </div>
+        <div class="contact-row">
+            <div class="contact-left-col">
+                <img src="b3.png" alt="boy">
+            </div>
+            <div class="contact-right-col">
+                <form action="">
+                    <h2>Connect with us</h2>
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="E-mail">
+                    <br>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea><br>
+                    <button class="c-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <h2>Developed by : Mayank Jain</h2>
+        <img src="icon.png" alt="icon" width="100px">
+    </section>
+
+
+
+    <script src="js/jquery.ripples-min.js"></script>
+    <script>
+        jQuery(document).ready(function(){
+            $('header').ripples({
+                dropRadius: 20,
+                perturbance: 0.03,
+});
+
+        });
+    </script>
+    <script>
+        let animate=new Typed('#ani',{
+            strings:["Fresher","Front End Developer","Student","Designer"],
+            typeSpeed:100,
+            backSpeed:100,
+            loop:true,
+        })
+    </script>
+    <script>
+        let animate2=new Typed('#ani2',{
+            strings:["Up Comming Engineer","Up Comming Engineer"],
+            typeSpeed:100,
+            backSpeed:100,
+            loop:true,
+        })
+    </script>
+    <script src="js/tilt.jquery.min.js"></script>
+
+</body>
+</html>
